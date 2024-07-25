@@ -19,6 +19,9 @@ public class JDBCDelete {
         String dbPassword ="rootroot";
 
 
+
+
+
         try{
             // Steps -1 : Load The Driver - Dynamic Loading
             Class.forName("com.mysql.cj.jdbc.Driver");
